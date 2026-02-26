@@ -1,0 +1,50 @@
+name: uni_sports
+description: "University Sports Gala App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # API aur Data Handling
+  http: ^1.1.0                # APIs call karne ke liye
+  shared_preferences: ^2.2.2  # Local storage ke liye
+  
+  # UI aur Design
+  google_fonts: ^6.1.0        # Achi fonts ke liye
+  flutter_spinkit: ^5.2.0     # Loading animations ke liye
+  image_picker: ^1.0.4        # Gallery se images lene ke liye
+  
+  # Firebase aur Notifications
+  firebase_core: ^3.0.0       
+  firebase_messaging: ^15.0.0 
+  flutter_local_notifications: ^17.0.0 
+  carousel_slider: ^5.1.1
+
+# Configuration Section (Bilkul Bahar/Root level par)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logobgnuco.jpg"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logobgnuco.jpg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.4
+  # Yahan se extra lines hata di gayi hain taake error khatam ho jaye
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/designForapp.jpg
+    - assets/logobgnuco.jpg
+    - assets/new1.png

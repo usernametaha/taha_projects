@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893233862104",
+    "project_id": "unisports-271ec",
+    "storage_bucket": "unisports-271ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893233862104:android:8ff44de39acc3863f68ead",
+        "android_client_info": {
+          "package_name": "com.example.uni_sports"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdL35E6SIUSWss3NiDqDMtD3IRWx8C9Ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
