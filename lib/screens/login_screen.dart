@@ -149,7 +149,7 @@ class _LoginScreenState extends State<LoginScreen> {
       await prefs.remove('savedPassword');
     }
 
-    final url = Uri.parse('https://skcubetech.site/sport_api/login.php');
+    final url = Uri.parse('Add only your api here');
 
     try {
       final response = await http.post(
